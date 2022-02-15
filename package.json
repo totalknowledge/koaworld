@@ -1,0 +1,36 @@
+{
+  "name": "koaworld",
+  "version": "1.0.0",
+  "description": "Hello World in Koa",
+  "main": "./api/api.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/totalknowledge/koaworld.git"
+  },
+  "keywords": [
+    "Koa",
+    "Mongo",
+    "Jest",
+    "Node",
+    "nginx"
+  ],
+  "author": "Bryan Patrick Coleman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totalknowledge/koaworld/issues"
+  },
+  "homepage": "https://github.com/totalknowledge/koaworld#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-visit-logger": "^1.0.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
